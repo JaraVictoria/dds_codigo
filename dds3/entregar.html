@@ -1,0 +1,246 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Inscripción</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Formulario de inscripción <a href="index1.html" class="btn btn-secondary">></a></h1>
+        <div class="container">
+            <div class="shadow p-3 mb-5 bg-body rounded">
+            <form class="needs-validation" novalidate>
+
+            <h4>Tus datos</h4>
+                <div class="row gy-3">
+                    <div class="col-6">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="text" class="form-control" placeholder="Ingrese su nombre" required>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="text" class="form-control" placeholder="Ingrese su apellido" required>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="number" class="form-control" placeholder="Ingrese su DNI" required>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <select id="inputState" class="form-select" >
+                                <option selected>Género</option>
+                                <option>Femenino</option>
+                                <option>Masculino</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <label class="form-label">Fecha de Nacimiento:</label>
+                            <input type="date" class="form-control" required>
+                        </div>
+                    </div>
+                    
+                    <h4>Domicilio</h4>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                                <select id="inputState" class="form-select" required>
+                                <option selected>Pais de Residencia</option>
+                                <option>Buenos Aires</option>
+                                </select>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                                <select id="inputState" class="form-select" required>
+                                <option selected>Ciudad de residencia</option>
+                                <option>Zárate</option>
+                                </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="number" class="form-control" placeholder="Codigo Postal" required >
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="text" class="form-control" placeholder="Calle" required >
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="number" class="form-control" placeholder="Altura" required >
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="texto" class="form-control" placeholder="Piso/Departamento" >
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <select id="inputState" class="form-select" >
+                                <option selected>Pais de nacimiento (Opcional) </option>
+                                <option>Buenos Aires</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <h4>Contacto</h4>
+                    <div class="col-md-2">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded" label class="form-label">Teléfono:</label>
+                            <input type="number" class="form-control" placeholder="Codigo de área">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded" form-label">-</label>
+                            <input type="number" class="form-control" placeholder="Número de teléfono">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded" form-label">Correo electrónico:</label>
+                            <input type="email" class="form-control" placeholder="tu@ejemplo.com " required >
+                        </div>
+                        
+                    </div>
+                    
+                
+                    <h4>Datos académicos</h4>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <select id="inputState" class="form-select" required>
+                                <option selected>¿Tenés título secundario? </option>
+                                <option>Si, tengo título secundario </option>
+                                <option>No, no tengo título secundario </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="number" class="form-control" placeholder="Año de egreso del secundario">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="text" class="form-control" placeholder="Instutución secundaria a la que asististe">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <select id="inputState" class="form-select" required>
+                                <option selected>¿Estudiás actualmente? </option>
+                                <option>No, no estudio </option>
+                                <option>Si, de manera autodidacta </option>
+                                <option>Si, estoy en el secundario </option>
+                                <option>Si, una carrera terciaria </option>
+                                <option>Si, una carrera universitaria </option>
+                                <option>Si, un postítulo </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="texto" class="form-control" placeholder="¿Qué estas cursando?">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="texto" class="form-control" placeholder="¿En qué instutición estás cursando?">
+                        </div>
+                    </div>
+
+                    <h4>Ocupacion</h4>
+                    <div class="col-md-6">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <select id="inputState" class="form-select" required>
+                                <option selected>¿Trabajás actualmente? </option>
+                                <option>Si, en relación de dependencia (en blanco) </option>
+                                <option>Si, contratación informal (en negro) </option>
+                                <option>Si, soy autónomo </option>
+                                <option>Si, eventualmente (changas) </option>
+                                <option>Si, pero no me pagan (negocio familiar, pasantía)</option>
+                                <option>No, no trabajo y no estoy buscando</option>
+                                <option>No, no trabajo pero estoy buscando</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="text" class="form-control" placeholder="¿Dónde trabajás?">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="text" class="form-control" placeholder="Calle">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="number" class="form-control" placeholder="Altura">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <input type="texto" class="form-control" placeholder="Piso/Departamento">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                    </div>
+
+                    <div class="col-md-3">
+                            <button class="btn btn-link">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Aceptar</button>  
+                        </div>
+                </div>
+            </div>
+        </div>
+            </form>
+            </div>
+          </div>
+<!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function () {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+            })
+        })()
+    </script>
+  </body>
+</html>
